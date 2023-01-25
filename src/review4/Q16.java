@@ -3,7 +3,7 @@ package review4;
 public class Q16 {
     public static void main(String[] args) {
 
-        class ForSample
+      /*  class ForSample
         {
 
             public static void main(String[] args)
@@ -13,6 +13,15 @@ public class Q16 {
                     System.out.println("i = " + i );
                 }
             }
+        }*/
+
+
+
+
+      /*for(int i = 0; i <= 5; i++ ) {
+            System.out.println("i = " + i );
         }
+
+        System.out.println("i after the loop = " + i );*/
     }
 }

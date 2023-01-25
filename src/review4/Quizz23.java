@@ -1,16 +1,17 @@
 package review4;
 
-public class Quizz9 {
+public class Quizz23 {
     public static void main(String[] args) {
 
         int x=1;
 
-        while(x<5) {
+        do{
 
             x++;
 
             System.out.print(x);
 
-        }
+        }while(x<5);
+
     }
 }

@@ -4,12 +4,22 @@ public class Quizz3 {
 
 
 
-        public static void main(String[] args) {
-            int[] egArray = { 2, 4, 6, 8, 10, 1, 3, 5, 7, 9 };
+    public static void main(String[] args) {
 
-            for ( int index= 0 ; index < 5 ; index++ ) {
-                System.out.print( egArray[ index ] + " " );
+        int i = 50;
+
+        int[] a = new int[10];
+
+        System.out.println(a.length);
+
+        a = new int[100];
+
+        System.out.println(a.length);
+
+        a = new int[i];
+
+        System.out.println(a.length);
             }
 
-        }}
+        }
 

@@ -8,6 +8,8 @@ public class Quizz19 {
         for (int i = 0; i < 10; ++i) {
             y += 1;
 
+
         }
+        System.out.println(y);
     }
 }

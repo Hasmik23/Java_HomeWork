@@ -1,25 +1,17 @@
 package review4;
 
 public class Quizz6 {
-   // Q6   public class ArraysConcept {
+    public static void main(String[] args) {
+        //Q6
 
-        public static void main(String[] args) {
 
-            int[] array = { 1, 4, 3, 6, 8, 2, 5 };
+            int[] egArray = { 2, 4, 6, 8, 10, 1, 3, 5, 7, 9 };
 
-            int what = array[0];
-
-            for (int index = 0; index < array.length; index++) {
-
-                if (array[index] > what) {
-
-                    what = array[index];
-
-                }
-
+            for ( int index= 0 ; index < 5 ; index++ ) {
+                System.out.print( egArray[ index ] + " " );
             }
 
-            System.out.println(what);
-
         }}
+
+
 

@@ -9,13 +9,13 @@ public class countries2D {
         Then print all values from that array using 2 different loops and calculate how many
         total countries been stored*/
 
-       /* String[][] countries = {"USA", "Canada", "Mexico"},
+       /*String[][] countries = {"USA", "Canada", "Mexico"},
                                {"Brazil", "Argentina", "Peru"},
                                {"France", "Armenia", "Swizerlznd"},
                                {"Iraq", "Lebanon", "Iran"},
                                {"Egypt", "moroco", "Kenya"} ;
 
-        int count++;
+        int count=0;
 
         for (int i = 0; i < countries.length; i++) {
             for (int j = 0; j < countries[i].length; j++) {
@@ -25,14 +25,15 @@ public class countries2D {
 
         }
 
-        System.out.println("************");
+        System.out.println();
         System.out.println
 
-        for String name:countries {
-            System.out.println(Arrays.toString.(name));
+       /* for String name:countries {
+            System.out.println(Arrays.toString.(name));*/
         }
 
-        System.out.println(count);*/
+       // System.out.println(count);
     }
-}
+
+
 

@@ -17,7 +17,7 @@ public class ScannerAndArrays {
         numbers[4]=80;
 
 
-        //below code take the numbers from user and store them in the array, good but a lot og work
+        //below code take the numbers from user and store them in the array, good but a lot of work
         numbers[0]=scanner.nextInt();
         numbers[1]=scanner.nextInt();
         numbers[2]=scanner.nextInt();
