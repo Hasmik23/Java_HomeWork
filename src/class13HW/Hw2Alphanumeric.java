@@ -5,13 +5,9 @@ public class Hw2 {
         /*Create a String that should be combination of letters, numbers and special characters.
     Find out how many Alphanumeric(abd AZ 284) characters are there in the String.*/
 
-        String combination = "abd AZ 284";
+        String combination = "abdAZ2846^%#$&";
+        System.out.println(combination.replaceAll("[^%#$&,a-z-Z0]","").length());
 
-        int count=0;
-        for (int i = 0; i < combination.length; i++) {
 
-            count++;
-            System.out.println(count +" charactors in "+String combination);
-        }
     }
 }
