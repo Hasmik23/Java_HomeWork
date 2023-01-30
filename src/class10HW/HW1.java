@@ -3,10 +3,10 @@ package class10HW;
 public class HW1 {
     public static void main(String[] args) {
 
-        /*Create a 2D array or integer type and store numbers in 3 rows and 3 columns.
+       /*Create a 2D array or integer type and store numbers in 3 rows and 3 columns.
          Print the sum of all numbers.*/
 
-      /*  int[][] numbers = new int[3][3];
+        int[][] numbers = new int[3][3];
 
         numbers[0][0] = 10;
         numbers[0][1] = 20;
@@ -29,7 +29,7 @@ public class HW1 {
             System.out.println(sum);
 
 
-        }*/
+        }
     }
 }
 
