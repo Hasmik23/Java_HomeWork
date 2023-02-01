@@ -2,13 +2,18 @@ package class15HW;
 
 public class Hello {
 
-    /*Create a method that will say Hello in different language based on the country that will passed when method is executed*/
+    /* Create a method that will say Hello in different language based on the country that will passed when method is executed
 
-    String hellolanguage(String country) {
+    return type >= String void
+    name >= sayHello
+    parameter >= String countryName
+        */
 
-        switch (country) {
+    String sayHello(String countryName) {  // void takes input countryName
+
+        switch (countryName) {
             case "Iraq":
-                return "Marhaba";
+                return "Marhaba";  //breake is not needed when we use return keyword. return means get out
             case "USA":
                 return "Hi";
             case "France":
@@ -17,17 +22,22 @@ public class Hello {
                 return "Parev";
             case "Italy":
                 return "Ciao";
+            default:
+                return "Country not supported";
+
+        }
+      //  System.out.println("I will get an error");   will never be executed because return is last statement
 
 
         }
 
 
-        public static void main (String[]args){
+        public static void main(String[] args){
             Hello hl = new Hello();
-            System.out.println(hl.hellolanguage(Armenia));
+            System.out.println(hl.sayHello(Armenia));
         }
     }
-}
+
 
 
 

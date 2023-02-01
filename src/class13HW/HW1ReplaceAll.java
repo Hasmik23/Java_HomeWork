@@ -1,8 +1,6 @@
 package class13HW;
 
-import class1.class1.Main;
-
-public class Hw1 {
+public class HW1ReplaceAll {
     public static void main(String[] args) {
 
 

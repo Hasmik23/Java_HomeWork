@@ -3,7 +3,7 @@ package class13;
 public class builderDemo {
     public static void main(String[] args) {
 
-        StringBuilder=new  StringBuilder("Sunday");
+        /*StringBuilder=new  StringBuilder("Sunday");
         System.out.println(stringBuilder.reverse());
 
       //  study the difference between String and StringBuilder
@@ -28,7 +28,7 @@ public class builderDemo {
         System.out.println(strArr.length);
         System.out.println(strArr[2].trim());
         //whenever we are working with arrays we use the length and whenever we are working with Strings
-        // we use the length()
+        // we use the length()*/
 
 
 

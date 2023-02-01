@@ -14,26 +14,29 @@ public class HW2Reverse {
     access modified >= public
      */
 
-    public String ReverseStr(String input){
-             String newStr="";
+   // public String ReverseStr(String input){
+            /* String newStr="";
     For(int i=input.length-1;i>=0;i--){
-        newStr=input.charAt(i);
+        newStr=input.charAt(i);*/
 
+               // }
 
-        }
+       // return newStr;
+   // }*/
 
-        return newStr;
-    }
+//Short way
+        // or
 
-    String reverseStr1(String input) {
+    /*String reverseStr1(String input) {
         return new StringBuilder(input).reverse().toString();
     }
 
-    String reverseStr2(String input) {
+
+    /*String reverseStr2(String input) {
         StringBuilder stringBuilder = new StringBuilder(input);
         stringBuilder.reverse();
-        return stringBuilder.toString();
-    }
+        return stringBuilder.toString();*/
+  //  }
 }
 
 

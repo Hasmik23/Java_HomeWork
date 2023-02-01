@@ -4,7 +4,7 @@ public class StringDemo9 {
     public static void main(String[] args) {
 
 
-        String str="jdnfkfd 3498234 *&%*";
+       /* String str="jdnfkfd 3498234 *&%*";
 
         int counter=0;
             for (int i=0; c<str.length ;i++) {
@@ -15,7 +15,7 @@ public class StringDemo9 {
                 }
             }
 
-                    System.out.println("Total isAlphabetic in str "+counter);
+                    System.out.println("Total isAlphabetic in str "+counter);*/
                 }
 
         }

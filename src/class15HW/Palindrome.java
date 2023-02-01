@@ -2,60 +2,55 @@ package class15HW;
 
 public class Palindrome {
 
-    package class15HW;
+    //package class15HW;
 
-    public class palindrome{
+  /*  public class palindrome {
+        /*Create a method that will print whether given String is palindrome or not.
+        if we write a program to print  only we use return type void
+        return type >=  void
+        name  <=  ispalindrome
+        parameters <=  String inputStr
+        {
+        }
+        ex   dad >= dad true*/
+        // reverse is inside StringBuilder
 
-        String str(String){
-            //reverse the word
-            String reverse="";
-            For(int i=str.length;i>=0;i--){
-                reverse+= str().charAt(i);
-                return reverse;
-            }
-            boolean palindrome=true;
-            for(i=0;i<str().length();i++) {
-                if (str.charAT(i) != reverse.charAt(i)) {
-                    palindrome = false;
-                }
-            }
-            if (palindrome){
-                return true;
-            }else{
 
-                return false;
+      /*  void isPalindrome(String str);
 
-            }
+        StringBuilder st = new StringBuilder(str); //we passed str to StringBuilder
+            st.reverse();
+        String reversedStr = st.toString();// to check again
+            if(str.equals(reversedStr))
 
+        {
+            System.out.println(str + " isPalindrome"):;
         }
 
 
+        // create object
         public static void main(String[] args) {
-
-            Pdrome PD=new Pdrome();
-            System.out.println(PD.Palindrome("Raddar"));
-
+            Palindrome Palindrome = new Palindrome();
+            Palindrome.isPalindrome("Kaya");  // needs input. input is Kaya
         }
-
-    }
-
-
-  */  boolean isPalindrome(String word) {
-        boolean isPalindrome=true;
-        String reverse = new StringBuilder(word).reverse().toString();
-        if (word.equals(reverse)) {
-            return true;
-        }else {
-            return false;
-        }
-
-    }
-
-    public static void main(String[] args) {
-        Task3 task3=new Task3();
-        System.out.println(task3.isPalindrome("hello"));
-    }
+    }*/
 }
-        */
+
+            //we can't print we can't assign to veriable
+            //String result= Palindrome.isPalindrome("Kaya");  we can't assign vois method to variable
+            //System.out.println(Palindrome.isPalindrome("Kaya"); we can't because not passing variables
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,13 +6,14 @@ public class H3Vowels {
        Method should be available inside the class only where it was declared and executed by calling it is name.
 
      return type >= String
-    name >= VowelString
-    parameters >= String
+    name >= getOnlyVowels
+    parameters >= String inputStr
     access modified >= private
         */
 
-    private String VowelString(String Str){
-        return Str.replaceAll=("[aeoiu]",""));
+  /*  private ststic String getOnlyVowels(String inputStr){  //we used static to executed by calling it is name.
+
+        return inputStr.replaceAll=("[^AEIOUYaeoiuy]",""));
 
     }
 
@@ -20,11 +21,13 @@ public class H3Vowels {
 
     public static void main(String[] args) {
 
-        H3Vowels vowel=new H3Vowels();
-        System.out.println(vowel.VowelString("America"));
+        System.out.println(getOnlyVowels("java"));
+
+       // H3Vowels vowel=new H3Vowels();
+      //  System.out.println(vowel.getOnlyVowels("America"));*/
 
 
 
-    }
+   // }
 }
 

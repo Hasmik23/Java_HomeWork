@@ -33,7 +33,7 @@ import java.util.Scanner;
                 } while(!answer.equalsIgnoreCase("yes"));
 
                 System.out.println("Great jobs, let's learn arrays now");*/
-            }
-        }
+
+
 
 

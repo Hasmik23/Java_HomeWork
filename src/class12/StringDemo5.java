@@ -4,7 +4,7 @@ public class                                                                    
     public static void main(String[] args) {
 
 
-        String str1="Java";
+       /* String str1="Java";
         String str2="Java";
 
         boolean areEqual=str.equals(str2);
@@ -15,8 +15,8 @@ public class                                                                    
         String str4="JAVA";
 
         boolean areEqual3=str.equalsIgnoreCase(str3);
-        System.out.println(areEqual2
-        );
+        System.out.println(areEqual);
+        );*/
 
 
 

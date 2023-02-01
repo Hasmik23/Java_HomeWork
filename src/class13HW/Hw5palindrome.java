@@ -1,6 +1,6 @@
 package class13HW;
 
-public class Hw5 {
+public class Hw5palindrome {
     public static void main(String[] args) {
         /*How would you check if String is palindrome or not? aba=> true
               =>false*/
@@ -18,3 +18,5 @@ public class Hw5 {
 
     }
 }
+
+

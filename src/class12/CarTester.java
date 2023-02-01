@@ -3,7 +3,7 @@ package class12;
 public class CarTester {
     public static void main(String[] args) {
 
-    Car bmw = new Car();
+   /* Car bmw = new Car();
        bmw.model = "a car";
      bmw.name = "It's a car";
        bmw.price = 50000;
@@ -22,7 +22,7 @@ public class CarTester {
     audi.price1 = 50000;
 
         audi.goesFast1();
-        audi.moveFarward1();
+        audi.moveFarward1();*/
 
 
 

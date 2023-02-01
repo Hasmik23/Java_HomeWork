@@ -1,6 +1,6 @@
 package class13HW;
 
-public class Hw4 {
+public class Hw4Reverse {
     public static void main(String[] args) {
 
         /*How would you reverse a String word by word? for example

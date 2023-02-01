@@ -7,7 +7,7 @@ public class StringDemo8 {
        // to calculate howmany char in your string. counts space as well
 
 
-        String str="Java is love";
+       /* String str="Java is love";
         char c=str.charAt();
         System.out.println(c);
 
@@ -30,7 +30,7 @@ public class StringDemo8 {
 
 
             }
-        }
+        }*/
 
 
     }
