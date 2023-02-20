@@ -11,7 +11,7 @@ Test your code!*/
     String ID;
     int years;
 
-    Employee(String name,String ID,int Years) {
+  /*  Employee(String name,String ID,int Years) {
         this.name = name;
         this.ID = ID;
         this.years = years;
@@ -35,7 +35,7 @@ Test your code!*/
         System.out.println("Full time employee qualifies for full benefits");
 
         void daysOff(){
-        System.out.println(Full time employee elegible for certain amount of personal and sick days");
+        System.out.println("Full time employee elegible for certain amount of personal and sick days");
         }
         }
 
@@ -62,7 +62,7 @@ public class FullTimeTester {
       //  ft.benefits();
        // ft.dayOff();
 
-    }
+    }*/
 
 
 

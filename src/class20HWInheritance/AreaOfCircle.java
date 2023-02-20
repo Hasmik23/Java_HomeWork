@@ -5,29 +5,29 @@ public class AreaOfCircle {
      In circle class create a method to calculate the area of circle. Test your code */
 
 
-    double radius;
-    AreaOfCircle(double redius);
-    this.radius=radius;
-
+   /* double radius;
+    AreaOfCircle(double radius) {
+        this.radius = radius;
+    }
 
 
     int area;
-    class Circle extends AreaOfCircle{
+    class Circle extends AreaOfCircle {
         super(radius);
-       // double area();
+        // double area();
 
-
+    }
 
         void areaOfCircle( ){
             System.out.println("The area of circle is = "+(radius*radius)*3.14);
         }
 
-    }
+
 
     public static void main(String[] args) {
         Circle c=new Circle(3.0);
-        c.areaOfCircle( );
+        c.areaOfCircle( );*/
 
-    }
+  //  }
 
 }
